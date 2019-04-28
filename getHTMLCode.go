@@ -49,6 +49,7 @@ func main(){
 func doMd5() {
 	for {
 		if len(lines) == 0  {
+		        wg.Done()
 			break
 		}
 
